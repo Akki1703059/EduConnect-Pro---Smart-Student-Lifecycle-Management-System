@@ -1,1 +1,1 @@
-# EduConnect-Pro---Smart-Student-Lifecycle-Management-System
+# EduConnect-Pro-Smart-Student-Lifecycle-Management-System
