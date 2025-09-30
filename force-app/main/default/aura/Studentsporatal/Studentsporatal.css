@@ -1,0 +1,126 @@
+.THIS .student-header {
+    margin-bottom: 2rem;
+}
+
+.THIS .profile-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.THIS .gpa-card {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+    color: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.THIS .gpa-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border: 3px solid rgba(255,255,255,0.3);
+    border-radius: 50%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.1);
+}
+
+.THIS .gpa-value {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.THIS .gpa-scale {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+.THIS .stats-card {
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.THIS .stat-number {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.THIS .stat-label {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 0.25rem;
+}
+
+.THIS .course-item {
+    border-left: 4px solid #1589ee;
+    background: #f8f9fa;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.THIS .course-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.THIS .grade-item {
+    border-left: 4px solid #06d6a0;
+    background: #f8f9fa;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.THIS .grade-score {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.THIS .job-card {
+    border: 1px solid #e0e5ee;
+    border-radius: 12px;
+    background: white;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.THIS .job-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    border-color: #1589ee;
+}
+
+.THIS .match-score {
+    text-align: center;
+}
+
+.THIS .score-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #06d6a0;
+    display: block;
+}
+
+.THIS .club-item, .THIS .event-item {
+    background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+    border: 1px solid #e0e5ee;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.THIS .club-item:hover, .THIS .event-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
